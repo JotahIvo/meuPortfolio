@@ -34,3 +34,18 @@
 .contact__text{
     margin-top: 1em;
 }
+
+.linkedin::before{
+    content: url('../img/icone-linkedin_resized.png');
+    margin-right: 7px;
+}
+
+.phone::before{
+    content: url('../img/telefone-logo-pardini-rel-gios-25_resized.png');
+    margin-right: 5px;
+}
+
+.email::before{
+    content: url('../img/email_cropped_resized.png');
+    margin-right: 7px;
+}
