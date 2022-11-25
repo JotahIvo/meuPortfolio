@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Public+Sans:wght@400;700&display=swap');
+@import url("styles/navigation-menu.css");
+@import url('styles/welcome.css');
+@import url('styles/aboutMe.css');
+@import url('styles/experience.css');
+@import url('styles/skills.css');
+@import url('styles/contact.css');
+
+:root{
+    --main-font: 'Public Sans', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+    --white: #FFFFFF;
+    --black: #000000;
+    --secondary-black: #030303;
+    --main-blue: #004AAD;
+    --light-blue: #38B6FF;
+}
+
+body{
+    font-family: var(--main-font);
+    font-size: 20px;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.footer{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    padding: 1em;
+    text-align: center;
+    background-color: var(--main-blue);
+}

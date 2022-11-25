@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/png" href="img/icon.png" />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="menu">
+        <div class="menu__logo">
+            <a href="#" class="logo__link">
+                <p class="logo__js">.</p>
+                <h1 class="logo__titlle">My Portfolio</h1>
+            </a>
+        </div>
+
+        <div class="menu__naviagtion">
+            <ul class="navigation__list">
+                <li class="list__item welcome">
+                    <a href="#welcome">Welcome</a>
+                </li>
+                <li class="list__item aboutMe">
+                    <a href="#aboutMe">About me</a>
+                </li>
+                <li class="list__item experience">
+                    <a href="#experience">Experience</a>
+                </li>
+                <li class="list__item skills">
+                    <a href="#skills">Skill</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="welcome">
+        <div class="welcome__text">
+            <p class="dots">.....</p>
+            <h3 class="welcome__subtittle">Hello, i'm João Pedro Ivo</h3>
+            <h2 class="welcome__tittle">Web Developer</h2>
+            <h3 class="welcome__subtittle2">and Engenieering student</h3>
+
+            <button class="button">
+                <a href="#contact" class="button__link">HIRE ME</a>
+            </button>
+        </div>
+
+        <div class="welcome__img">
+            <img src="img/myFoto.png" alt="My foto" class="welcome__img">
+        </div>
+    </header>
+
+    <section id="aboutMe">
+        <p class="dots">.....</p>
+        <h2 class="aboutMe__tittle"> About me</h2>
+        <p class="aboutMe__text">Hello, my name is João Pedro, I'm 19 years old and I'm passionate about Web Development.  Everyday I study and work hard to improve my skills and now I'm trying to enter in the labor market, to get better more and more everyday.</p>
+    </section>
+
+    <section id="experience">
+        <div class="experience__projects">
+            <div class="mobile">
+                <a href="https://alurabooks-mobilefirst.vercel.app/">
+                    <img src="img/project-mobileFirst.png" alt="Mobile-first">
+                </a>
+            </div>
+            <div class="projectsFlex">
+                <a href="https://landing-page-nu-sable.vercel.app/" class="webPage">
+                    <img src="img/project-landingPage.png" alt="Landing page">
+                </a>
+                <a href="https://optimustech-7daysofcode-csar.vercel.app/" class="webPage">
+                    <img src="img/project-7dOc.png" alt="Web page">
+                </a>
+            </div>
+        </div>
+
+        <div class="experience__text">
+            <div class="experience__box">
+                <h4 class="experience__tittle">Electrical engenieering</h4>
+                <p class="experience__text--text">UFU Student</p>
+            </div>
+            <div class="experience__box">
+                <h4 class="experience__tittle">Front-end developer</h4>
+                <p class="experience__text--text">Studying by myself  and always looking to improve</p>
+            </div>
+            <div class="experience__box">
+                <h4 class="experience__tittle">Coding some projects to gain expereince</h4>
+                <p class="experience__text--text">Click on the images to access my project</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="card">
+            <img src="img/html.png" alt="HTML">
+            <div class="card__description">
+                <h6 class="description__tittle">HTML</h6>
+                <p class="description__text">Experience with: HTML tags; document structure and forms.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/css.png" alt="CSS">
+            <div class="card__description">
+                <h6 class="description__tittle">CSS</h6>
+                <p class="description__text">Experience with: flexbox; grid; media queries; pseudo-class; pseudo-elements and animations.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/js.png" alt="Javascript">
+            <div class="card__description">
+                <h6 class="description__tittle">Javascript</h6>
+                <p class="description__text">Experience with: programming logic and DOM manipulation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact__foto"></div>
+        <div class="contact__info">
+            <div class="contact__details">
+                <h5 class="contact__tittle">Phone Number</h5>
+                <p class="contact__text">+55 (64)99224-2457</p>
+            </div>
+            <div class="contact__details">
+                <h5 class="contact__tittle">Email Address</h5>
+                <p class="contact__text">joaopedroivo.dev.contato@gmail.com</p>
+            </div>
+            <div class="contact__details">
+                <h5 class="contact__tittle">Linkedin</h5>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-ivo/">
+                    <p class="contact__text">Click here to access</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__tittle">Developed by João Pedro Ivo</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="javascript/navigation-feature.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+#experience{
+    height: calc(100vh);
+    background-image: url('../img/bg-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7em;
+}
+
+.experience__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+    width: 40%;
+}
+
+.experience__tittle{
+    font-size: 25px;
+    color: var(--light-blue);
+    font-weight: 700;
+}
+
+.experience__text--text{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.experience__projects{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.projectsFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mobile img{
+    width: 100%;
+}
+
+.webPage img{
+    width: 43%;
+}
+
+.mobile:hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
+.webPage:nth-child(1):hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
+.webPage:nth-child(2):hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+}

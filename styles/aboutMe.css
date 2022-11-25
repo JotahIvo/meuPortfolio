@@ -1,0 +1,30 @@
+#aboutMe{
+    height: calc(100vh);
+    background-image: url('../img/bg-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.aboutMe__tittle{
+    font-size: 67px;
+    font-family: var(--secondary-font);
+    color: var(--light-blue);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.dots{
+    font-size: 70px;
+}
+
+.aboutMe__text{
+    width: 55%;
+    font-size: 25px;
+}

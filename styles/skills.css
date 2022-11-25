@@ -1,0 +1,54 @@
+#skills{
+    height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh
+}
+
+.card{
+    width: 270px;
+    height: 500px;
+    border: solid 1px white;
+    border-radius: 10px;
+    background: radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+}
+
+.card img{
+    transition: all 0.3s ease-out;
+}
+
+.card img:hover{
+    transform: scale(0.8) translateY(-20px);
+    opacity: 0.3;
+}
+
+.card__description{
+    text-align: center;
+    position: relative;
+    top: -80px;
+    width: 100%;
+}
+
+.card__description h6{
+    color: var(--light-blue);
+    font-weight: 700;
+    opacity: 0;
+    transition: 1s;
+}
+
+.card__description p{
+    margin-top: 0.5em;
+    font-size: 16px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.card:hover .card__description h6{
+    opacity: 1;
+}
+
+.card:hover .card__description p{
+    opacity: 1;
+}

@@ -1,0 +1,73 @@
+#welcome{
+    height: calc(100vh);
+    background-image: url(../img/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 0 7em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome__text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    font-weight: 700;
+}
+
+.dots{
+    font-size: 40px;
+    animation: bounceInDown;
+    animation-duration: 1s;
+}
+
+.welcome__subtittle{
+    font-size: 40px;
+    color: var(--light-blue);
+    text-transform: uppercase;
+    margin-top: 0.7em;
+    animation: bounceInDown;
+    animation-duration: 1s;
+}
+
+.welcome__tittle{
+    font-size: 67px;
+    color: var(--light-blue);
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    animation: bounceInDown;
+    animation-duration: 1s;
+}
+
+.welcome__subtittle2{
+    font-size: 45px;
+    margin-bottom: 0.7em;
+    animation: bounceInDown;
+    animation-duration: 1s;
+}
+
+.button__link{
+    font-size: 16px;
+    padding: 0.5em 1.5em;
+    border-radius: 18px;
+    background-color: var(--main-blue);
+    animation: bounceInDown;
+    animation-duration: 1s;
+}
+
+.button__link:hover{
+    border: solid 1px var(--main-blue);
+    background-color: transparent;
+    color: var(--main-blue);    
+}
+
+.welcome__img{
+    height: 750px;
+    align-self: flex-end;
+    animation: fadeInRight;
+    animation-duration: 1s;
+}

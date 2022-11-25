@@ -1,0 +1,39 @@
+.menu{
+    background-color: var(--main-blue);
+    font-family: var(--secondary-font);
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 0em;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+    position: fixed;
+}
+
+.logo__link{
+    display: flex;
+    gap: 5px;
+    margin-left: 3em;
+}
+
+.navigation__list{
+    display: flex;
+    gap: 0.5em;
+    margin-right: 3em;
+}
+
+.list__item{
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.activated-button{
+    background-color: var(--light-blue);
+}
+
+.item__button{
+    display: flex;
+    flex-direction: row;
+}
