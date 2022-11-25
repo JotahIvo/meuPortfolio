@@ -32,34 +32,73 @@
 .experience__projects{
     width: 100%;
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 
-.projectsFlex{
+.experience__images{
+    width: 250px;
+    border-radius: 10px;
+    display: block;
+}
+
+.challenge{
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
-.mobile img{
-    width: 100%;
+.view-all{
+    align-self: flex-end;
+    font-size: 16px;
+    margin-top: 2.5em;
+    color: var(--light-blue);
 }
 
-.webPage img{
-    width: 43%;
+.view-all::after{
+    content: url('../img/seta-direita.png');
 }
 
-.mobile:hover{
-    transform: scale(1.1);
+.experience-card{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(0, 74, 173, 0.4);
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__tittle{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0.5em;
+}
+
+.card__text{
+    width: 90%;
+    font-size: 18px;
+    margin: 1em 0;
+    height: 55px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    padding: 0.5em 1em;
+    border: solid 1px var(--white);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.buttons button:hover{
+    background-color: rgb(0, 74, 173, 0.7);
     transition: 0.5s all;
 }
 
-.webPage:nth-child(1):hover{
-    transform: scale(1.1);
-    transition: 0.5s all;
-}
-
-.webPage:nth-child(2):hover{
-    transform: scale(1.1);
-    transition: 0.5s all;
+.tecnologies{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-evenly;
 }

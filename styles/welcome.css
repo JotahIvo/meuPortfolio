@@ -53,6 +53,7 @@
 .button__link{
     font-size: 16px;
     padding: 0.5em 1.5em;
+    border: solid 1px transparent;
     border-radius: 18px;
     background-color: var(--main-blue);
     animation: bounceInDown;
