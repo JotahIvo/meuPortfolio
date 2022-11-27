@@ -90,3 +90,21 @@
         height: 600px;
     }
 }
+
+@media screen and (max-width: 1130px){
+    .welcome__subtittle{
+        font-size: 24px;
+    }
+
+    .welcome__tittle{
+        font-size: 40px;
+    }
+
+    .welcome__subtittle2{
+        font-size: 27px;
+    }
+
+    .button__link{
+        font-size: 14px;
+    }
+}
