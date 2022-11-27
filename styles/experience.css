@@ -102,3 +102,38 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 1400px){
+    .experience-card{
+        width: 200px;
+        height: 300px;
+    }
+
+    .experience__images{
+        width: 200px;
+    }
+
+    .card__text{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .card__tittle{
+        font-size: 20px;
+    }
+
+    .view-all{
+        margin-top: 2em;
+    }
+
+    .experience__tittle{
+        font-size: 22px;
+    }
+    .experience__text--text{
+        font-size: 20px;
+    }
+
+    .experience__text{
+        height: 50%;
+    }
+}
