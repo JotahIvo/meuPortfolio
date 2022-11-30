@@ -5,6 +5,7 @@
 @import url('styles/experience.css');
 @import url('styles/skills.css');
 @import url('styles/contact.css');
+@import url('styles/projectsPage.css');
 
 :root{
     --main-font: 'Public Sans', sans-serif;

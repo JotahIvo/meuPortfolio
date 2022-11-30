@@ -1,0 +1,22 @@
+#projects-main{
+    height: 110vh;
+    padding: 5em;
+    background-image: url('../img/bg-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.projects__tittle{
+    font-family: var(--secondary-font);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-left: 0.8em;
+}
+
+.experience__projects--page{
+    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
