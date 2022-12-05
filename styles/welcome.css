@@ -108,3 +108,30 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 700px){
+    .welcome__img{
+        display: none;
+    }
+
+    #welcome{
+        padding: 5em 2em;
+        align-items: flex-start;
+    }
+
+    .welcome__text p{
+        font-size: 40px;
+    }
+
+    .welcome__subtittle{
+        font-size: 21px;
+    }
+
+    .welcome__subtittle2{
+        font-size: 24px;
+    }
+
+    .welcome__tittle{
+        font-size: 36px;
+    }
+}
