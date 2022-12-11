@@ -73,6 +73,14 @@
     animation-duration: 1s;
 }
 
+#img-mobile{
+    display: none;
+}
+
+.img-skillsMobile{
+    display: none;
+}
+
 @media screen and (max-width: 1400px){
     .welcome__subtittle{
         font-size: 30px;
@@ -117,6 +125,7 @@
     #welcome{
         padding: 5em 2em;
         align-items: flex-start;
+        flex-direction: column;
     }
 
     .welcome__text p{
@@ -133,5 +142,25 @@
 
     .welcome__tittle{
         font-size: 36px;
+    }
+
+    #img-mobile{
+        display: block;
+        align-self: center;
+        transform: scale(1.2) rotate(-20deg);
+        position: relative;
+        left: 40px;
+        bottom: 40px;
+    }
+
+    .img-skillsMobile{
+        display: inline-block;
+        transform: scale(0.8);
+    }
+
+    .skills-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

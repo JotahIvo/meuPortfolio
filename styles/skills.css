@@ -71,3 +71,9 @@
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 1130px){
+    .card{
+        display: none;
+    }
+}

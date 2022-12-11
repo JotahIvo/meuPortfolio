@@ -63,3 +63,22 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 1400px){
+    .contact__foto{
+        display: none;
+    }
+
+    .contact__info{
+        padding: 0 2em;
+    }
+
+    .contact__tittle{
+        font-size: 20px;
+    }
+
+    .contact__text{
+        font-size: 14px;
+        display: block;
+    }
+}

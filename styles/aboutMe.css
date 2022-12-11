@@ -39,3 +39,18 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width: 700px){
+    .aboutMe__tittle{
+        font-size: 40px;
+    }
+
+    .aboutMe__text{
+        font-size: 20px;
+        width: 300px;
+    }
+
+    #aboutMe{
+        padding: 0 2em;
+    }
+}
