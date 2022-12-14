@@ -81,6 +81,19 @@
     display: none;
 }
 
+#download{
+    margin-left: 1em;
+    font-size: 12px;
+    border: solid 1px white;
+    padding: 0.5em;
+    border-radius: 16px;
+}
+
+#download:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.5s all;
+}
+
 @media screen and (max-width: 1400px){
     .welcome__subtittle{
         font-size: 30px;
